@@ -17,7 +17,7 @@ const differentials = [
     id: 3,
     icon: CreditCard,
     title: "Pagamento Facilitado",
-    description: "Pix, cartão e outras formas de pagamento",
+    description: "Cartão Mastercard (débito/crédito), Pix ou dinheiro no local",
   },
   {
     id: 4,
