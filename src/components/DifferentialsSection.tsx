@@ -11,7 +11,7 @@ const differentials = [
     id: 2,
     icon: Truck,
     title: "Entrega Rápida",
-    description: "No mesmo dia para pedidos feitos até às 14h",
+    description: "Motoboy, carro ou retirada no local. Pedidos com até 3h de antecedência",
   },
   {
     id: 3,
