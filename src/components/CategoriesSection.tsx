@@ -6,7 +6,7 @@ import cestaFlores from "@/assets/cesta-flores.jpg";
 import suculentas from "@/assets/suculentas.jpg";
 import arranjoEspecial from "@/assets/arranjo-especial.jpg";
 
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "031993726771 ";
 
 const categories = [
   {
