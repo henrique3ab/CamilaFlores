@@ -17,7 +17,7 @@ const steps = [
     id: 3,
     icon: Truck,
     title: "Entrega Rápida",
-    description: "Entregamos no mesmo dia na região com todo o cuidado que suas flores merecem.",
+    description: "Entregamos no mesmo dia para BH e região com todo cuidado que suas flores merecem.",
   },
 ];
 
