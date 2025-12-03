@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="font-display text-2xl text-foreground">
-            Floricultura
+            Camila Flores
           </a>
 
           {/* Desktop Navigation */}
