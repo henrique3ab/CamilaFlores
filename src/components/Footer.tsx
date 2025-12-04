@@ -8,27 +8,26 @@ const Footer = () => {
     <footer className="bg-foreground text-background/90">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
             <h3 className="font-display text-3xl text-background mb-4">
               Floricultura
             </h3>
-            <p className="font-body text-background/70 leading-relaxed mb-6 max-w-md">
-              Transformamos flores em arte e momentos em memórias. Com dedicação artesanal, criamos arranjos únicos que expressam seus sentimentos mais especiais.
+            <p className="font-body text-background/70 leading-relaxed mb-6">
+              Transformamos flores em arte e momentos em memórias.
             </p>
-            {/* WhatsApp Catalog Button */}
-            <a
-              href={WHATSAPP_CATALOG_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground font-body text-sm font-semibold py-3 px-5 rounded-full hover:bg-secondary/90 transition-all mb-6"
-            >
-              <MessageCircle className="w-5 h-5" />
-              Ver Catálogo no WhatsApp
-            </a>
             {/* Social Links */}
             <div className="flex gap-4">
+              <a
+                href={WHATSAPP_CATALOG_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-secondary transition-colors"
+                aria-label="Ver Catálogo no WhatsApp"
+              >
+                <MessageCircle className="w-5 h-5" />
+              </a>
               <a
                 href={INSTAGRAM_LINK}
                 target="_blank"
@@ -80,8 +79,7 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                 <span>
                   Rua Padre Eustáquio, 2718<br />
-                  BH/MG<br />
-                  CEP 30720100
+                  BH/MG - CEP 30720100
                 </span>
               </li>
               <li className="flex items-start gap-3 font-body text-background/70">
