@@ -1,34 +1,36 @@
-import { MapPin, Phone, MessageCircle, Instagram, Clock } from "lucide-react";
+import { MapPin, Phone, Instagram, Clock, MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_CATALOG_LINK = "https://wa.me/c/553193726771";
+const INSTAGRAM_LINK = "https://www.instagram.com/camilaflores.pe?igsh=MTd6cjlqNjNzOHhtYQ==";
 
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background/90">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Brand */}
-          <div className="lg:col-span-2">
+          <div>
             <h3 className="font-display text-3xl text-background mb-4">
               Floricultura
             </h3>
             <p className="font-body text-background/70 leading-relaxed mb-6 max-w-md">
               Transformamos flores em arte e momentos em memórias. Com dedicação artesanal, criamos arranjos únicos que expressam seus sentimentos mais especiais.
             </p>
+            {/* WhatsApp Catalog Button */}
+            <a
+              href={WHATSAPP_CATALOG_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground font-body text-sm font-semibold py-3 px-5 rounded-full hover:bg-secondary/90 transition-all mb-6"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Ver Catálogo no WhatsApp
+            </a>
             {/* Social Links */}
             <div className="flex gap-4">
               <a
-                href={`https://wa.me/${WHATSAPP_NUMBER}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-secondary transition-colors"
-                aria-label="WhatsApp"
-              >
-                <MessageCircle className="w-5 h-5" />
-              </a>
-              <a
-                href="https://instagram.com/floricultura"
+                href={INSTAGRAM_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-secondary transition-colors"
@@ -47,33 +49,22 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 font-body text-background/70 hover:text-background transition-colors"
-                >
-                  <MessageCircle className="w-5 h-5 text-secondary" />
-                  (11) 99999-9999
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:+551199999999"
+                  href="tel:+5531993726771"
                   className="flex items-center gap-3 font-body text-background/70 hover:text-background transition-colors"
                 >
                   <Phone className="w-5 h-5 text-secondary" />
-                  (11) 9999-9999
+                  (31) 99372-6771
                 </a>
               </li>
               <li>
                 <a
-                  href="https://instagram.com/floricultura"
+                  href={INSTAGRAM_LINK}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 font-body text-background/70 hover:text-background transition-colors"
                 >
                   <Instagram className="w-5 h-5 text-secondary" />
-                  @floricultura
+                  @camilaflores.pe
                 </a>
               </li>
             </ul>
@@ -88,9 +79,9 @@ const Footer = () => {
               <li className="flex items-start gap-3 font-body text-background/70">
                 <MapPin className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                 <span>
-                  Rua das Flores, 123<br />
-                  Centro - São Paulo/SP<br />
-                  CEP 01234-567
+                  Rua Padre Eustáquio, 2718<br />
+                  BH/MG<br />
+                  CEP 30720100
                 </span>
               </li>
               <li className="flex items-start gap-3 font-body text-background/70">

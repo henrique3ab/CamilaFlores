@@ -6,7 +6,7 @@ import cestaFlores from "@/assets/cesta-flores.jpg";
 import suculentas from "@/assets/suculentas.jpg";
 import arranjoEspecial from "@/assets/arranjo-especial.jpg";
 
-const WHATSAPP_NUMBER = "031993726771 ";
+const WHATSAPP_CATALOG_LINK = "https://wa.me/c/553193726771";
 
 const categories = [
   {
@@ -98,7 +98,7 @@ const CategoriesSection = () => {
                   {category.description}
                 </p>
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(category.message)}`}
+                  href={WHATSAPP_CATALOG_LINK}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 font-body text-sm font-semibold text-secondary hover:text-secondary/80 transition-colors"

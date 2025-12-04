@@ -1,10 +1,9 @@
 import { MessageCircle, Heart } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5511999999999";
-const WHATSAPP_MESSAGE = "Olá! Quero ver o catálogo completo.";
+const WHATSAPP_CATALOG_LINK = "https://wa.me/c/553193726771";
 
 const FinalCTA = () => {
-  const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+  const whatsappLink = WHATSAPP_CATALOG_LINK;
 
   return (
     <section className="relative section-padding overflow-hidden" id="contato">

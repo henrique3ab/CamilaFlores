@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5511999999999";
-const WHATSAPP_MESSAGE = "Olá! Quero ver o catálogo de flores.";
+const WHATSAPP_CATALOG_LINK = "https://wa.me/c/553193726771";
 
 const navLinks = [
   { label: "Início", href: "#" },
@@ -24,7 +23,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+  const whatsappLink = WHATSAPP_CATALOG_LINK;
 
   return (
     <nav

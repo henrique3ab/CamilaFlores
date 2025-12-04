@@ -1,11 +1,10 @@
 import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-flowers.jpg";
 
-const WHATSAPP_NUMBER = "5511999999999";
-const WHATSAPP_CATALOG_MESSAGE = "Olá! Quero ver o catálogo de flores.";
+const WHATSAPP_CATALOG_LINK = "https://wa.me/c/553193726771";
 
 const HeroSection = () => {
-  const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_CATALOG_MESSAGE)}`;
+  const whatsappLink = WHATSAPP_CATALOG_LINK;
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">

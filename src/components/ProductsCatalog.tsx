@@ -9,7 +9,7 @@ import produtoOrquidea from "@/assets/produto-orquidea.jpg";
 import arranjoPresente from "@/assets/arranjo-presente.jpg";
 import cestaFlores from "@/assets/cesta-flores.jpg";
 
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_CATALOG_LINK = "https://wa.me/c/553193726771";
 
 const products = [
   {
@@ -127,13 +127,13 @@ const ProductsCatalog = () => {
                   {product.description}
                 </p>
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(`Olá! Quero saber mais sobre o produto: ${product.name}.`)}`}
+                  href={WHATSAPP_CATALOG_LINK}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 bg-secondary text-secondary-foreground font-body text-sm font-semibold py-3 px-4 rounded-full transition-all duration-300 hover:bg-secondary/90 hover:shadow-soft"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  Pedir pelo WhatsApp
+                  Ver Catálogo no WhatsApp
                 </a>
               </div>
             </div>
