@@ -1,6 +1,6 @@
 import { MapPin, Phone, Instagram, Clock, MessageCircle } from "lucide-react";
 
-const WHATSAPP_CATALOG_LINK = "https://wa.me/c/553193726771";
+const WHATSAPP_CATALOG_LINK = "https://wa.me/c/5531993726771";
 const INSTAGRAM_LINK = "https://www.instagram.com/camilaflores.pe?igsh=MTd6cjlqNjNzOHhtYQ==";
 
 const Footer = () => {
