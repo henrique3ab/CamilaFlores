@@ -34,7 +34,7 @@ const categories = [
     id: 4,
     title: "Arranjos para Presente",
     description: "Surpreenda quem você ama",
-    image: arranjosPresenteNovo,
+    image: gérbera.jpeg,
     message: "Olá! Quero ver arranjos para presente.",
   },
   {
