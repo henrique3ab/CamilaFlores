@@ -4,7 +4,7 @@ import arranjoPresente from "@/assets/arranjo-presente.jpg";
 import floresEspeciais from "@/assets/flores-especiais.jpg";
 import cestaFlores from "@/assets/cesta-flores.jpg";
 import suculentas from "@/assets/suculentas.jpg";
-import arranjoEspecial from "@/assets/arranjo-especial.jpg";
+import arranjosPresenteNovo from "@/assets/arranjo-presente-novo.jpg";
 
 const WHATSAPP_CATALOG_LINK = "https://wa.me/c/553193726771";
 
@@ -34,7 +34,7 @@ const categories = [
     id: 4,
     title: "Arranjos para Presente",
     description: "Surpreenda quem você ama",
-    image: arranjoEspecial,
+    image: arranjosPresenteNovo,
     message: "Olá! Quero ver arranjos para presente.",
   },
   {
