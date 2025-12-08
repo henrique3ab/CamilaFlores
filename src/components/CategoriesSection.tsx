@@ -13,21 +13,21 @@ const categories = [
     id: 1,
     title: "Mais Vendidos",
     description: "Os favoritos dos nossos clientes",
-    image: buqueRomantico,
+    image: maisvendido.jpeg,
     message: "Olá! Quero ver os produtos mais vendidos.",
   },
   {
     id: 2,
     title: "Flores abaixo de R$89,90",
     description: "Beleza que cabe no seu bolso",
-    image: floresEspeciais,
+    image: abaixoDe.jpeg,
     message: "Olá! Quero ver flores abaixo de R$89,90.",
   },
   {
     id: 3,
     title: "Buquês de Rosas",
     description: "Clássicos e elegantes",
-    image: arranjoPresente,
+    image: buqueRosas.jpeg,
     message: "Olá! Quero ver buquês de rosas.",
   },
   {
@@ -41,7 +41,7 @@ const categories = [
     id: 5,
     title: "Girassóis",
     description: "Alegria e energia em forma de flor",
-    image: suculentas,
+    image: vanGogh.jpeg,
     message: "Olá! Quero ver girassóis.",
   },
   {
