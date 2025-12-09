@@ -23,17 +23,17 @@ const products = [
     id: 2,
     name: "Buquê de Rosas Brancas",
     description: "Elegância e pureza em cada pétala",
-    price: "R$ 79,90",
+    price: "R$ 89,90",
     image: produtoRosasBrancas,
   },
   {
     id: 3,
     name: "Arranjo de Girassóis",
     description: "Alegria e energia positiva para iluminar o dia",
-    price: "R$ 69,90",
+    price: "R$ 59,90",
     image: produtoGirassol,
   },
-  {
+  /*{
     id: 4,
     name: "Buquê de Tulipas Rosa",
     description: "Delicadeza e sofisticação holandesa",
@@ -46,35 +46,35 @@ const products = [
     description: "Combinação aromática e encantadora",
     price: "R$ 99,90",
     image: produtoLavanda,
-  },
+  },*/
   {
     id: 6,
     name: "Mix de Rosas Coloridas",
     description: "Variedade de cores para alegrar qualquer ambiente",
-    price: "R$ 84,90",
+    price: "R$ 144,90",
     image: produtoRosasMix,
   },
   {
     id: 7,
     name: "Orquídea Branca Premium",
     description: "Sofisticação e durabilidade em um vaso elegante",
-    price: "R$ 149,90",
+    price: "R$ 99,90",
     image: produtoOrquidea,
   },
   {
     id: 8,
     name: "Arranjo Delicado Rosa",
     description: "Perfeito para presentear com carinho",
-    price: "R$ 74,90",
+    price: "R$ 59,90",
     image: arranjoPresente,
   },
-  {
+ /* {
     id: 9,
     name: "Cesta de Rosas Premium",
     description: "Luxuosa cesta com rosas selecionadas",
     price: "R$ 189,90",
     image: cestaFlores,
-  },
+  },*/
 ];
 
 const ProductsCatalog = () => {
