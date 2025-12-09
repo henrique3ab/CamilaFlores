@@ -46,9 +46,9 @@ const categories = [
   },
   {
     id: 6,
-    title: "Cestas de Café da Manhã",
+    title: "Para presentear",
     description: "Presente completo e especial",
-    image: cestaFlores,
+    image: "/images/catalogue/caixaVinho.jpg",
     message: "Olá! Quero ver cestas de café da manhã.",
   },
 ];
