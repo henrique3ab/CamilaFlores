@@ -17,7 +17,7 @@ const products = [
     name: "Buquê de Rosas Vermelhas",
     description: "Clássico e romântico, perfeito para declarações de amor",
     price: "R$ 89,90",
-    image: buqueRomantico,
+    image: "/images/catalogue/buqueRosasVermelhas",
   },
   {
     id: 2,
