@@ -52,7 +52,7 @@ const products = [
     name: "Mix de Rosas Coloridas",
     description: "Variedade de cores para alegrar qualquer ambiente",
     price: "R$ 144,90",
-    image: "/images/catalogue/RosasMix.jpg",,
+    image: "/images/catalogue/RosasMix.jpg",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const products = [
     name: "Buquê de Lírios",
     description: "Perfeito para presentear com carinho",
     price: "R$ 58,90",
-    image: "/images/catalogue/buqueLirio.jpg",,
+    image: "/images/catalogue/buqueLirio.jpg",
   },
  /* {
     id: 9,
