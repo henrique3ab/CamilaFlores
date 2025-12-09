@@ -13,7 +13,7 @@ const categories = [
     id: 1,
     title: "Mais Vendidos",
     description: "Os favoritos dos nossos clientes",
-    image: "/images/catalogue/vanGogh.jpeg",
+    image: "/images/catalogue/maisvendido.jpeg",
     message: "Olá! Quero ver os produtos mais vendidos.",
   },
   {
