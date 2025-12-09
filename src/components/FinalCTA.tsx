@@ -40,7 +40,7 @@ const FinalCTA = () => {
             className="btn-hero inline-flex text-lg group"
           >
             <MessageCircle className="w-6 h-6 transition-transform group-hover:scale-110" />
-            Abrir WhatsApp
+            Escolha Seu Arranjo Perfeito
           </a>
 
           {/* Trust Text */}
