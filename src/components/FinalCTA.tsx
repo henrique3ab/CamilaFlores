@@ -45,7 +45,7 @@ const FinalCTA = () => {
 
           {/* Trust Text */}
           <p className="font-body text-sm text-muted-foreground mt-8">
-            Atendimento rápido • Sem compromisso • Personalização disponível
+            Atendimento rápido • Personalização disponível
           </p>
         </div>
       </div>
