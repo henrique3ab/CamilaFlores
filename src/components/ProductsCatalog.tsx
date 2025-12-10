@@ -17,7 +17,7 @@ const products = [
     name: "Buquê de Rosas Vermelhas",
     description: "Clássico e romântico, perfeito para declarações de amor",
     price: "R$ 89,90",
-    image: "/images/catalogue/buqueRosasVermelhas.jpg",
+    image: "/images/catalogue/buqueRosas.jpeg",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const products = [
     name: "Arranjo de Girassóis",
     description: "Alegria e energia positiva para iluminar o dia",
     price: "R$ 59,90",
-    image: "/images/catalogue/arranjoGirassol.jpg",
+    image: "/images/catalogue/arranjoGira.jpg",
   },
   /*{
     id: 4,
