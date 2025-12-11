@@ -16,14 +16,14 @@ const products = [
     id: 1,
     name: "Buquê de Rosas Vermelhas",
     description: "Clássico e romântico, perfeito para declarações de amor",
-    price: "R$ 89,90",
+    price: "R$ 119,90",
     image: "/images/catalogue/buqueRosas.jpeg",
   },
   {
     id: 2,
     name: "Buquê de Rosas Brancas",
     description: "Elegância e pureza em cada pétala",
-    price: "R$ 89,90",
+    price: "R$ 145,90",
     image: "/images/catalogue/RosasBrancas.jpg",
   },
   {
@@ -65,7 +65,7 @@ const products = [
     id: 8,
     name: "Buquê de Lírios",
     description: "Perfeito para presentear com carinho",
-    price: "R$ 58,90",
+    price: "R$ 109,90",
     image: "/images/catalogue/buqueLirio.jpg",
   },
  /* {
